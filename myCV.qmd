@@ -4,134 +4,146 @@ subtitle: "Analyst | Data Specialist | Business Consultant"
 format:
   html:
     toc: true
-    toc-depth: 2
+    toc-depth: 3
+    toc-location: left
     theme: simplex
     css: style.css
+    smooth-scroll: true
     embed-resources: true
-    link-external-icon: true
+    link-external-icon: false
     link-external-newwindow: true
+    include-in-header: back-to-top.html
 ---
 
-Cape Town | +27 76 278 3709 | <cesairetobias@gmail.com> | 
-<svg style="width:16px;height:16px;margin-right:5px;vertical-align:middle;" viewBox="0 0 24 24"><path fill="#0055FF" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg> [LinkedIn](https://www.linkedin.com/in/cesaire-tobias-5555a274/) | 
-<svg style="width:16px;height:16px;margin-right:5px;vertical-align:middle;" viewBox="0 0 24 24"><path fill="#0055FF" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.13-1.47-1.13-1.47-.92-.65.07-.65.07-.65 1.02.05 1.56 1.05 1.56 1.05.91 1.56 2.39 1.11 2.97.85.09-.66.36-1.11.65-1.36-2.26-.25-4.64-1.13-4.64-5.03 0-1.11.4-2.02 1.05-2.73-.11-.25-.46-1.29.1-2.69 0 0 .85-.27 2.79 1.04a9.69 9.69 0 0 1 5.02 0c1.94-1.31 2.79-1.04 2.79-1.04.56 1.4.21 2.44.1 2.69.66.71 1.05 1.62 1.05 2.73 0 3.91-2.38 4.78-4.65 5.03.36.31.68.92.68 1.86v2.76c0 .27.16.59.67.5A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg> [GitHub](https://github.com/ces0491)
+Cape Town \| +27 76 278 3709 \| [cesairetobias\@gmail.com](mailto:cesairetobias@gmail.com){.email} \| <svg style="width:16px;height:16px;margin-right:5px;vertical-align:middle;" viewBox="0 0 24 24"><path fill="#0055FF" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg> [LinkedIn](https://www.linkedin.com/in/cesaire-tobias-5555a274/) \| <svg style="width:16px;height:16px;margin-right:5px;vertical-align:middle;" viewBox="0 0 24 24"><path fill="#0055FF" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.13-1.47-1.13-1.47-.92-.65.07-.65.07-.65 1.02.05 1.56 1.05 1.56 1.05.91 1.56 2.39 1.11 2.97.85.09-.66.36-1.11.65-1.36-2.26-.25-4.64-1.13-4.64-5.03 0-1.11.4-2.02 1.05-2.73-.11-.25-.46-1.29.1-2.69 0 0 .85-.27 2.79 1.04a9.69 9.69 0 0 1 5.02 0c1.94-1.31 2.79-1.04 2.79-1.04.56 1.4.21 2.44.1 2.69.66.71 1.05 1.62 1.05 2.73 0 3.91-2.38 4.78-4.65 5.03.36.31.68.92.68 1.86v2.76c0 .27.16.59.67.5A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg> [GitHub](https://github.com/ces0491)
 
 ```{r echo = FALSE}
 start_dt <- as.Date("2015-01-01")
 end_dt <- Sys.Date()
-date_diff <- as.numeric(difftime(end_dt, start_dt, unit="weeks"))/52.25
+date_diff <- as.numeric(difftime(end_dt, start_dt, unit="days"))/(365.25)
 ```
+
 ## Professional Summary
+
 Experienced analyst integrating finance, programming, and statistical analysis to transform data into actionable business insights for `r ifelse(date_diff %% 1 == 0, "", "over")` `r round(date_diff)` years. Expertise in process optimization, financial modelling, and data visualization using R, SQL, Excel, VBA, and various BI tools. Demonstrated success in streamlining operations, developing automated solutions, and driving data-informed decision-making across multiple industries.
 
 ## Technical Skills
 
-- **Programming**: R, SQL, VBA, Python
-- **Data Analysis**: Excel, Statistical Modelling, Monte Carlo Simulation
-- **Business Intelligence**: Tableau, Metabase, Power BI
-- **Database**: Google BigQuery, AWS Athena
-- **Automation**: Microsoft Power Platform, Power Automate
-- **Financial Analysis**: Free Cash Flow Analysis, Economic Profit Models
+-   **Programming**: R, SQL, VBA, Python
+-   **Data Analysis**: Excel, Statistical Modelling, Monte Carlo Simulation
+-   **Business Intelligence**: Tableau, Metabase, Power BI
+-   **Database**: Google BigQuery, AWS Athena
+-   **Automation**: Microsoft Power Platform, Power Automate
+-   **Financial Analysis**: Free Cash Flow Analysis, Economic Profit Models
 
 ## Professional Experience
 
-### Founder | [SheetSolved](https://sheetsolved.com/)
+### Founder \| [SheetSolved](https://sheetsolved.com/)
+
 *September 2022 - Present*
 
-- Launched and operate an independent consulting business specializing in business process reengineering.
-- Improved client workflow efficiency through systematic model refactoring and automation.
-- Transformed complex, error-prone business processes into robust, scalable solutions for financial services, retail, and technology clients. Clients include:
-  - [BlueAlpha Investments](https://www.bluealphafunds.com/)
-  - [Gananda Connect](https://gananda.net/)
-  - [Precise Digital](https://precise.digital/)
+-   Launched and operate an independent consulting business specializing in business process reengineering.
+-   Improved client workflow efficiency through systematic model refactoring and automation.
+-   Transformed complex, error-prone business processes into robust, scalable solutions for financial services, retail, and technology clients. Clients include:
+    -   [BlueAlpha Investments](https://www.bluealphafunds.com/)
+    -   [Gananda Connect](https://gananda.net/)
+    -   [Precise Digital](https://precise.digital/)
 
-### Finance Project Analyst | [CDW](https://www.cdw.com/), Cape Town
+### Finance Project Analyst \| [CDW](https://www.cdw.com/), Cape Town
+
 *January 2024 - December 2024*
 
-- Led cross-functional improvement initiatives within the CFO's Tactical Solutions Team, collaborating with stakeholders across Finance, HR, and BI departments.
-- Designed and implemented Power Automate approval workflows that reduced processing time.
-- Developed automated data aggregation solutions that consolidated information from multiple disparate sources, reducing hours spent on unnecessary manual operations.
+-   Led cross-functional improvement initiatives within the CFO's Tactical Solutions Team, collaborating with stakeholders across Finance, HR, and BI departments.
+-   Designed and implemented Power Automate approval workflows that reduced processing time.
+-   Developed automated data aggregation solutions that consolidated information from multiple disparate sources, reducing hours spent on unnecessary manual operations.
 
-### Senior Business Analyst | [GoDaddy](https://aboutus.godaddy.net/about-us/overview/default.aspx), Cape Town
+### Senior Business Analyst \| [GoDaddy](https://aboutus.godaddy.net/about-us/overview/default.aspx), Cape Town
+
 *April 2022 - December 2023*
 
-- Designed and analysed A/B experiments for the Mobile Ventures data analytics squad, directly impacting product strategy decisions.
-- Created interactive dashboards using Metabase and Tableau that enabled product managers to visualize key performance metrics.
-- Leveraged Google BigQuery and AWS Athena to analyse user behaviour patterns across platforms, identifying opportunities to increase user engagement.
+-   Designed and analysed A/B experiments for the Mobile Ventures data analytics squad, directly impacting product strategy decisions.
+-   Created interactive dashboards using Metabase and Tableau that enabled product managers to visualize key performance metrics.
+-   Leveraged Google BigQuery and AWS Athena to analyse user behaviour patterns across platforms, identifying opportunities to increase user engagement.
 
-### Business Development Analyst | [Takealot](https://www.takealot.com/about), Cape Town
+### Business Development Analyst \| [Takealot](https://www.takealot.com/about), Cape Town
+
 *July 2021 - April 2022*
 
-- Developed models to assess new business opportunities across the Takealot Group (Takealot.com, Superbalist [at the time of employment], Mr D).
-- Conducted analysis for the on-demand grocery initiative.
-- Conducted analysis for the TakealotMORE subscription plan.
-- Performed benchmark analysis against international e-commerce leaders to identify feature gaps and growth opportunities.
+-   Developed models to assess new business opportunities across the Takealot Group (Takealot.com, Superbalist \[at the time of employment\], Mr D).
+-   Conducted analysis for the on-demand grocery initiative.
+-   Conducted analysis for the TakealotMORE subscription plan.
+-   Performed benchmark analysis against international e-commerce leaders to identify feature gaps and growth opportunities.
 
-### Independent Consultant | [Cloudza](https://cloudza.io/home/index.html), Cape Town
+### Independent Consultant \| [Cloudza](https://cloudza.io/home/index.html), Cape Town
+
 *May 2021 - Present*
 
-- Provided strategic financial guidance to this cloud services startup during its critical growth phase.
-- Developed comprehensive cost structures and pricing models that helped secure AWS EEIP (Equity Equivalent Investment Program) approval.
-- Serve as ongoing financial advisor, bridging technical requirements with business strategy and financial optimization.
+-   Provided strategic financial guidance to this cloud services startup during its critical growth phase.
+-   Developed comprehensive cost structures and pricing models that helped secure AWS EEIP (Equity Equivalent Investment Program) approval.
+-   Serve as ongoing financial advisor, bridging technical requirements with business strategy and financial optimization.
 
-### Consultant | [Fractal Value Advisors](https://www.fractalva.com/), Cape Town
+### Consultant \| [Fractal Value Advisors](https://www.fractalva.com/), Cape Town
+
 *August 2018 - July 2021*
 
-- Built and maintained financial models for corporate valuation and strategic decision analysis.
-- Developed interactive dashboards using Excel and Power BI that visualized complex financial metrics for C-suite executives.
-- Created web-scraping tools that automated data collection, reducing research time.
-- Implemented scenario analysis and Monte Carlo simulations to stress-test strategic initiatives.
+-   Built and maintained financial models for corporate valuation and strategic decision analysis.
+-   Developed interactive dashboards using Excel and Power BI that visualized complex financial metrics for C-suite executives.
+-   Created web-scraping tools that automated data collection, reducing research time.
+-   Implemented scenario analysis and Monte Carlo simulations to stress-test strategic initiatives.
 
 ### [Ninety-One](https://ninetyone.com/en/south-africa), Cape Town
 
 #### Quantitative Analyst
+
 *January 2016 - August 2018*
 
-- Developed investment analytics tools for the global Emerging Market Fixed Income team across Cape Town, London, and Singapore.
-- Created R packages for data extraction and analysis that standardized reporting across international teams.
-- Built interactive Shiny dashboards that democratized complex analytics for non-technical portfolio managers.
-- Designed and implemented regression models to predict sovereign bond performance and recession risk.
+-   Developed investment analytics tools for the global Emerging Market Fixed Income team across Cape Town, London, and Singapore.
+-   Created R packages for data extraction and analysis that standardized reporting across international teams.
+-   Built interactive Shiny dashboards that democratized complex analytics for non-technical portfolio managers.
+-   Designed and implemented regression models to predict sovereign bond performance and recession risk.
 
 #### Graduate Intern
+
 *January 2015 - December 2015*
 
-- Rotated through Operations (Business Change team) and Investments (South African Rates team).
-- Assisted in econometric projects and operational process improvements.
+-   Rotated through Operations (Business Change team) and Investments (South African Rates team).
+-   Assisted in econometric projects and operational process improvements.
 
 ## Education
 
-- [**MPhil Financial Technology**](https://commerce.uct.ac.za/school-economics/programmes-postgraduate/mphil-specialising-financial-technology) | University of Cape Town  
-  *January 2024 - Current*
+-   [**MPhil Financial Technology**](https://commerce.uct.ac.za/school-economics/programmes-postgraduate/mphil-specialising-financial-technology) \| University of Cape Town\
+    *January 2024 - Current*
 
-- [**BBusSci (Economics)**](https://commerce.uct.ac.za/school-economics/programmes-undergraduate/bachelor-business-science-specialising-economics) | University of Cape Town  
-  *January 2010 - December 2014*  
-  - 3rd Place, Allan Gray essay competition (2014)  
-  - 3rd Overall position, EDU Business Science 2010 cohort (2013)  
-  - 2nd Overall position, EDU Business Science 2010 cohort (2012)
+-   [**BBusSci (Economics)**](https://commerce.uct.ac.za/school-economics/programmes-undergraduate/bachelor-business-science-specialising-economics) \| University of Cape Town\
+    *January 2010 - December 2014*
 
-- **National Senior Certificate** | St. George's Grammar School, Cape Town  
-  *December 2009*
+    -   3rd Place, Allan Gray essay competition (2014)\
+    -   3rd Overall position, EDU Business Science 2010 cohort (2013)\
+    -   2nd Overall position, EDU Business Science 2010 cohort (2012)
+
+-   **National Senior Certificate** \| St. George's Grammar School, Cape Town\
+    *December 2009*
 
 ## Certifications
 
-- Certified Data Carpentries Instructor (June 2023)
-- AWS Certified Cloud Practitioner (July 2021)
-- AWS Partner Technical Accreditation (June 2021)
-- AWS Partner Business Accreditation (May 2021)
-- AWS Partner Cloud Economics Accreditation (May 2021)
-- Chartered Financial Analyst (CFA) Level 1 (June 2016)
-- Investment Management Administration & Client Servicing, UCT/ASISA Academy (March 2015)
-- Equity Analyst Boot Camp, ASISA Academy (February 2015)
-- The President's Award – Gold Standard (October 2009)
+-   Certified Data Carpentries Instructor (June 2023)
+-   AWS Certified Cloud Practitioner (July 2021)
+-   AWS Partner Technical Accreditation (June 2021)
+-   AWS Partner Business Accreditation (May 2021)
+-   AWS Partner Cloud Economics Accreditation (May 2021)
+-   Chartered Financial Analyst (CFA) Level 1 (June 2016)
+-   Investment Management Administration & Client Servicing, UCT/ASISA Academy (March 2015)
+-   Equity Analyst Boot Camp, ASISA Academy (February 2015)
+-   The President's Award – Gold Standard (October 2009)
 
 ## Publications & Presentations
 
 ### Publications
 
-- "An unbalanced approach to assessing public interest," *Deal Makers Magazine* (June 2021), co-authored with David Holland: [Deal Makers Magazine](https://add20920-7ea5-4a28-a0bb-8636da1552ce.filesusr.com/ugd/cf215e_bfd97695a36a4e34958b87e4e238ff0f.pdf)
+-   "An unbalanced approach to assessing public interest," *Deal Makers Magazine* (June 2021), co-authored with David Holland: [Deal Makers Magazine](https://add20920-7ea5-4a28-a0bb-8636da1552ce.filesusr.com/ugd/cf215e_bfd97695a36a4e34958b87e4e238ff0f.pdf)
 
 ### Presentations
 
-- Guest Lecturer, "The Economy and its Financial Markets," Economics Honours, University of Cape Town (September 2019)
-- "Productivity hacks with your Rprofile," SatRday Conference (2020): [Watch Presentation](https://www.youtube.com/watch?v=uB75nB3GwP0)
-- "Integrating Excel with R," SatRday Conference (2019): [Watch Presentation](https://www.youtube.com/watch?v=MlBgaMdgp0w)
+-   Guest Lecturer, "The Economy and its Financial Markets," Economics Honours, University of Cape Town (September 2019)
+-   "Productivity hacks with your Rprofile," SatRday Conference (2020): [Watch Presentation](https://www.youtube.com/watch?v=uB75nB3GwP0)
+-   "Integrating Excel with R," SatRday Conference (2019): [Watch Presentation](https://www.youtube.com/watch?v=MlBgaMdgp0w)
