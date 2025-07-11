@@ -1,6 +1,6 @@
 ---
 title: "Cesairé Owen Tobias"
-subtitle: "Analyst | Data Specialist | Business Consultant"
+subtitle: "Strategic Technology Consultant | Process Automation | Custom Solutions Developer"
 format:
   html:
     toc: true
@@ -25,16 +25,17 @@ date_diff <- as.numeric(difftime(end_dt, start_dt, unit="days"))/(365.25)
 
 ## Professional Summary
 
-Experienced analyst integrating finance, programming, and statistical analysis to transform data into actionable business insights for `r ifelse(date_diff %% 1 == 0, "", "over")` `r round(date_diff)` years. Expertise in process optimization, financial modelling, and data visualization using R, SQL, Excel, VBA, and various BI tools. Demonstrated success in streamlining operations, developing automated solutions, and driving data-informed decision-making across multiple industries.
+Strategic technology consultant with `r ifelse(date_diff %% 1 == 0, "", "over")` `r round(date_diff)` years of experience building custom solutions and transforming business processes. Specializing in refactoring spreadsheet-based workflows into automated code solutions, developing custom applications, and creating data-driven dashboards. Combining hands-on technical development expertise with strategic business advisory to help organizations scale their operations through thoughtful technology implementation across finance, e-commerce, entertainment, and technology sectors.
 
 ## Technical Skills
 
+-   **Solution Development**: Custom App Development, Dashboard Creation, Process Automation
 -   **Programming**: R, SQL, VBA, Python
--   **Data Analysis**: Excel, Statistical Modelling, Monte Carlo Simulation
--   **Business Intelligence**: Tableau, Metabase, Power BI
--   **Database**: Google BigQuery, AWS Athena
--   **Automation**: Microsoft Power Platform, Power Automate
--   **Financial Analysis**: Free Cash Flow Analysis, Economic Profit Models
+-   **Process Transformation**: Workflow Refactoring, Spreadsheet-to-Code Migration, System Integration
+-   **Business Intelligence**: Tableau, Metabase, Power BI, Interactive Visualization
+-   **Databases**: Google BigQuery, AWS Athena, PostgreSQL
+-   **Automation Platforms**: Microsoft Power Platform, Power Automate
+-   **Strategic Analysis**: Financial Modelling, Statistical Analysis, Monte Carlo Simulation
 
 ## Professional Experience
 
@@ -42,45 +43,47 @@ Experienced analyst integrating finance, programming, and statistical analysis t
 
 *September 2022 - Present*
 
--   Launched and operate an independent consulting business specializing in business process reengineering.
--   Improved client workflow efficiency through systematic model refactoring and automation.
--   Transformed complex, error-prone business processes into robust, scalable solutions for financial services, retail, and technology clients. Clients include:
+-   Founded and operate strategic technology consulting business specializing in process transformation and custom solution development.
+-   Fulfilling Technical Lead and Consulting roles for businesses across multiple industries.
+-   Transform complex, spreadsheet-dependent workflows into robust, automated code solutions for clients across financial services, retail, and technology.
+-   Provide full-spectrum services from hands-on development to strategic technology advisory, helping organizations scale operations through thoughtful automation.
+-   Overseeing architecture and data analytics implementation.
+-   Key clients include:
     -   [BlueAlpha Investments](https://www.bluealphafunds.com/)
     -   [Gananda Connect](https://gananda.net/)
-    -   [Precise Digital](https://precise.digital/)
+    -   [Precise Digital](https://precise.digital/).
 
 ### Finance Project Analyst \| [CDW](https://www.cdw.com/), Cape Town
 
 *January 2024 - December 2024*
 
 -   Led cross-functional improvement initiatives within the CFO's Tactical Solutions Team, collaborating with stakeholders across Finance, HR, and BI departments.
--   Designed and implemented Power Automate approval workflows that reduced processing time.
--   Developed automated data aggregation solutions that consolidated information from multiple disparate sources, reducing hours spent on unnecessary manual operations.
+-   Designed and built Power Automate approval workflows that reduced processing time and eliminated manual bottlenecks.
+-   Developed custom automated data aggregation solutions that consolidated information from multiple disparate sources, reducing hours spent on unnecessary manual operations.
 
 ### Senior Business Analyst \| [GoDaddy](https://aboutus.godaddy.net/about-us/overview/default.aspx), Cape Town
 
 *April 2022 - December 2023*
 
 -   Designed and analysed A/B experiments for the Mobile Ventures data analytics squad, directly impacting product strategy decisions.
--   Created interactive dashboards using Metabase and Tableau that enabled product managers to visualize key performance metrics.
+-   Built interactive dashboards using Metabase and Tableau that enabled product managers to visualize key performance metrics.
 -   Leveraged Google BigQuery and AWS Athena to analyse user behaviour patterns across platforms, identifying opportunities to increase user engagement.
 
 ### Business Development Analyst \| [Takealot](https://www.takealot.com/about), Cape Town
 
 *July 2021 - April 2022*
 
--   Developed models to assess new business opportunities across the Takealot Group (Takealot.com, Superbalist \[at the time of employment\], Mr D).
--   Conducted analysis for the on-demand grocery initiative.
--   Conducted analysis for the TakealotMORE subscription plan.
+-   Developed analytical models to assess new business opportunities across the Takealot Group (Takealot.com, Superbalist \[at the time of employment\], Mr D).
+-   Built business case frameworks for the on-demand grocery initiative and TakealotMORE subscription plan.
 -   Performed benchmark analysis against international e-commerce leaders to identify feature gaps and growth opportunities.
 
 ### Independent Consultant \| [Cloudza](https://cloudza.io/home/index.html), Cape Town
 
 *May 2021 - Present*
 
--   Provided strategic financial guidance to this cloud services startup during its critical growth phase.
--   Developed comprehensive cost structures and pricing models that helped secure AWS EEIP (Equity Equivalent Investment Program) approval.
--   Serve as ongoing financial advisor, bridging technical requirements with business strategy and financial optimization.
+-   Provide strategic technology and financial guidance to this cloud services startup during its critical growth phase.
+-   Developed cost structures and pricing models that helped secure AWS EEIP (Equity Equivalent Investment Program) approval.
+-   Serve as ongoing strategic advisor, bridging technical requirements with business strategy and financial optimization.
 
 ### Consultant \| [Fractal Value Advisors](https://www.fractalva.com/), Cape Town
 
@@ -88,7 +91,7 @@ Experienced analyst integrating finance, programming, and statistical analysis t
 
 -   Built and maintained financial models for corporate valuation and strategic decision analysis.
 -   Developed interactive dashboards using Excel and Power BI that visualized complex financial metrics for C-suite executives.
--   Created web-scraping tools that automated data collection, reducing research time.
+-   Created web-scraping tools that automated data collection, reducing research time and improving data accuracy.
 -   Implemented scenario analysis and Monte Carlo simulations to stress-test strategic initiatives.
 
 ### [Ninety-One](https://ninetyone.com/en/south-africa), Cape Town
@@ -99,7 +102,7 @@ Experienced analyst integrating finance, programming, and statistical analysis t
 
 -   Developed investment analytics tools for the global Emerging Market Fixed Income team across Cape Town, London, and Singapore.
 -   Created R packages for data extraction and analysis that standardized reporting across international teams.
--   Built interactive Shiny dashboards that democratized complex analytics for non-technical portfolio managers.
+-   Built interactive Shiny applications that democratized complex analytics for non-technical portfolio managers.
 -   Designed and implemented regression models to predict sovereign bond performance and recession risk.
 
 #### Graduate Intern
@@ -141,6 +144,7 @@ Experienced analyst integrating finance, programming, and statistical analysis t
 ### Publications
 
 -   "An unbalanced approach to assessing public interest," *Deal Makers Magazine* (June 2021), co-authored with David Holland: [Deal Makers Magazine](https://add20920-7ea5-4a28-a0bb-8636da1552ce.filesusr.com/ugd/cf215e_bfd97695a36a4e34958b87e4e238ff0f.pdf)
+-   [Ready Before Run(): A Practical Guide to Gear Up for Data Science](https://ces0491.github.io/rbr/)
 
 ### Presentations
 
