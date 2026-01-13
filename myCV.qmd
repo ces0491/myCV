@@ -1,6 +1,6 @@
 ---
 title: "Cesairé Owen Tobias"
-subtitle: "Strategic Technology Consultant | Process Automation | Custom Solutions Developer"
+subtitle: "Strategic Technology Consultant | Process Automation | Technical Leadership"
 format:
   html:
     toc: true
@@ -25,33 +25,41 @@ date_diff <- as.numeric(difftime(end_dt, start_dt, unit="days"))/(365.25)
 
 ## Professional Summary
 
-Strategic technology consultant with `r ifelse(date_diff %% 1 == 0, "", "over")` `r round(date_diff)` years of experience building custom solutions and transforming business processes. Specializing in refactoring spreadsheet-based workflows into automated code solutions, developing custom applications, and creating data-driven dashboards. Combining hands-on technical development expertise with strategic business advisory to help organizations scale their operations through thoughtful technology implementation across finance, e-commerce, entertainment, and technology sectors.
+Strategic technology consultant with `r ifelse(date_diff %% 1 == 0, "", "over")` `r round(date_diff)` years of experience building custom solutions and transforming business processes. Specializing in refactoring spreadsheet-based workflows, developing custom applications, and creating data-driven dashboards. Combining hands-on technical development expertise with strategic business advisory to help organizations scale their operations through thoughtful technology implementation across finance, e-commerce, entertainment, and technology sectors.
 
 ## Technical Skills
 
--   **Solution Development**: Custom App Development, Dashboard Creation, Process Automation
--   **Programming**: R, SQL, VBA, Python
--   **Process Transformation**: Workflow Refactoring, Spreadsheet-to-Code Migration, System Integration
--   **Business Intelligence**: Tableau, Metabase, Power BI, Interactive Visualization
--   **Databases**: Google BigQuery, AWS Athena, PostgreSQL
+-   **Leadership**: Team Management, Technical Mentorship
+-   **Programming**: R, SQL, Python, VBA
+-   **Machine Learning**: Supervised & Unsupervised Learning, Regression Modelling, Statistical Analysis
+-   **Business Intelligence**: Tableau, Metabase, Power BI, Interactive Visualization, A/B Testing
+-   **Databases & Cloud**: Google BigQuery, AWS Athena, PostgreSQL
+-   **Data Practices**: Data Governance, Data Quality Standards, ETL Pipelines
 -   **Automation Platforms**: Microsoft Power Platform, Power Automate
--   **Strategic Analysis**: Financial Modelling, Statistical Analysis, Monte Carlo Simulation
+-   **Strategic Analysis**: Financial Modelling, Monte Carlo Simulation, Scenario Analysis
 
 ## Professional Experience
 
-### Founder \| [SheetSolved](https://sheetsolved.com/)
+### Founder & Principal Consultant \| [SheetSolved](https://sheetsolved.com/)
 
-*September 2022 - Present*
+*September 2022 - Present (full-time from January 2025)*
 
--   Founded and operate strategic technology consulting business specializing in process transformation and custom solution development.
--   Fulfilling Technical Lead and Consulting roles for businesses across multiple industries.
--   Transform complex, spreadsheet-dependent workflows into robust, automated code solutions for clients across financial services, retail, and technology.
+Independent consultancy specializing in process transformation and custom solution development. Founded while employed full-time; now my primary focus.
+
+#### Current Engagement: Consulting Technical Lead \| [Precise Digital](https://precise.digital/)
+
+-   Lead a team of 3 developers, overseeing architecture decisions and sprint planning.
+-   Established coding standards, data governance practices, and quality assurance processes to ensure maintainable, reliable solutions.
+-   Mentor team members through regular one-on-ones and technical guidance, fostering professional growth and building team capability.
+
+#### Consulting Services
+
 -   Provide full-spectrum services from hands-on development to strategic technology advisory, helping organizations scale operations through thoughtful automation.
--   Overseeing architecture and data analytics implementation.
--   Key clients include:
-    -   [BlueAlpha Investments](https://www.bluealphafunds.com/)
-    -   [Gananda Connect](https://gananda.net/)
-    -   [Precise Digital](https://precise.digital/).
+-   Additional clients include [BlueAlpha Investments](https://www.bluealphafunds.com/) and [Gananda Connect](https://gananda.net/).
+
+---
+
+### Previous Employment
 
 ### Finance Project Analyst \| [CDW](https://www.cdw.com/), Cape Town
 
@@ -65,25 +73,17 @@ Strategic technology consultant with `r ifelse(date_diff %% 1 == 0, "", "over")`
 
 *April 2022 - December 2023*
 
--   Designed and analysed A/B experiments for the Mobile Ventures data analytics squad, directly impacting product strategy decisions.
--   Built interactive dashboards using Metabase and Tableau that enabled product managers to visualize key performance metrics.
--   Leveraged Google BigQuery and AWS Athena to analyse user behaviour patterns across platforms, identifying opportunities to increase user engagement.
+-   Designed, implemented, and analysed A/B experiments within the Mobile Ventures experimentation framework, applying statistical rigour to inform product strategy decisions.
+-   Built interactive dashboards using Metabase and Tableau that enabled product managers to self-serve key performance metrics and track experiment outcomes.
+-   Leveraged Google BigQuery and AWS Athena to analyse user behaviour patterns across platforms, translating insights into actionable recommendations that increased user engagement.
 
 ### Business Development Analyst \| [Takealot](https://www.takealot.com/about), Cape Town
 
 *July 2021 - April 2022*
 
--   Developed analytical models to assess new business opportunities across the Takealot Group (Takealot.com, Superbalist \[at the time of employment\], Mr D).
+-   Developed analytical models to assess new business opportunities across the Takealot Group (Takealot.com, Superbalist, Mr D).
 -   Built business case frameworks for the on-demand grocery initiative and TakealotMORE subscription plan.
 -   Performed benchmark analysis against international e-commerce leaders to identify feature gaps and growth opportunities.
-
-### Independent Consultant \| [Cloudza](https://cloudza.io/home/index.html), Cape Town
-
-*May 2021 - Present*
-
--   Provide strategic technology and financial guidance to this cloud services startup during its critical growth phase.
--   Developed cost structures and pricing models that helped secure AWS EEIP (Equity Equivalent Investment Program) approval.
--   Serve as ongoing strategic advisor, bridging technical requirements with business strategy and financial optimization.
 
 ### Consultant \| [Fractal Value Advisors](https://www.fractalva.com/), Cape Town
 
@@ -100,10 +100,10 @@ Strategic technology consultant with `r ifelse(date_diff %% 1 == 0, "", "over")`
 
 *January 2016 - August 2018*
 
--   Developed investment analytics tools for the global Emerging Market Fixed Income team across Cape Town, London, and Singapore.
--   Created R packages for data extraction and analysis that standardized reporting across international teams.
--   Built interactive Shiny applications that democratized complex analytics for non-technical portfolio managers.
--   Designed and implemented regression models to predict sovereign bond performance and recession risk.
+-   Helped build the analytics capability from the ground up for the global Emerging Market Fixed Income team spanning Cape Town, London, and Singapore.
+-   Created R packages for data extraction and analysis that standardized reporting and established data quality practices across international teams.
+-   Developed interactive Shiny applications that democratized complex analytics, enabling non-technical portfolio managers and analysts to self-serve insights.
+-   Designed and implemented regression models to predict sovereign bond performance and recession risk, directly informing investment decisions.
 
 #### Graduate Intern
 
@@ -115,7 +115,7 @@ Strategic technology consultant with `r ifelse(date_diff %% 1 == 0, "", "over")`
 ## Education
 
 -   [**MPhil Financial Technology**](https://commerce.uct.ac.za/school-economics/programmes-postgraduate/mphil-specialising-financial-technology) \| University of Cape Town\
-    *January 2024 - Current*
+    *January 2024 - December 2025*
 
 -   [**BBusSci (Economics)**](https://commerce.uct.ac.za/school-economics/programmes-undergraduate/bachelor-business-science-specialising-economics) \| University of Cape Town\
     *January 2010 - December 2014*
@@ -130,11 +130,9 @@ Strategic technology consultant with `r ifelse(date_diff %% 1 == 0, "", "over")`
 ## Certifications
 
 -   Certified Data Carpentries Instructor (June 2023)
--   AWS Certified Cloud Practitioner (July 2021)
 -   AWS Partner Technical Accreditation (June 2021)
 -   AWS Partner Business Accreditation (May 2021)
 -   AWS Partner Cloud Economics Accreditation (May 2021)
--   Chartered Financial Analyst (CFA) Level 1 (June 2016)
 -   Investment Management Administration & Client Servicing, UCT/ASISA Academy (March 2015)
 -   Equity Analyst Boot Camp, ASISA Academy (February 2015)
 -   The President's Award – Gold Standard (October 2009)
