@@ -1,6 +1,6 @@
 ---
 title: "Cesairé Owen Tobias"
-subtitle: "Strategic Technology Consultant | Process Automation | Technical Leadership"
+subtitle: "Technology Strategy Consultant | Advisory & Technical Leadership"
 format:
   html:
     toc: true
@@ -17,7 +17,7 @@ format:
 
 Cape Town \| +27 76 278 3709 \| [cesairetobias\@gmail.com](mailto:cesairetobias@gmail.com){.email} \| <svg style="width:16px;height:16px;margin-right:5px;vertical-align:middle;" viewBox="0 0 24 24"><path fill="#0F4761" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg> [LinkedIn](https://www.linkedin.com/in/cesaire-tobias-5555a274/) \| <svg style="width:16px;height:16px;margin-right:5px;vertical-align:middle;" viewBox="0 0 24 24"><path fill="#0F4761" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.13-1.47-1.13-1.47-.92-.65.07-.65.07-.65 1.02.05 1.56 1.05 1.56 1.05.91 1.56 2.39 1.11 2.97.85.09-.66.36-1.11.65-1.36-2.26-.25-4.64-1.13-4.64-5.03 0-1.11.4-2.02 1.05-2.73-.11-.25-.46-1.29.1-2.69 0 0 .85-.27 2.79 1.04a9.69 9.69 0 0 1 5.02 0c1.94-1.31 2.79-1.04 2.79-1.04.56 1.4.21 2.44.1 2.69.66.71 1.05 1.62 1.05 2.73 0 3.91-2.38 4.78-4.65 5.03.36.31.68.92.68 1.86v2.76c0 .27.16.59.67.5A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg> [GitHub](https://github.com/ces0491)
 
-```{r echo = FALSE}
+```{r echo=FALSE}
 start_dt <- as.Date("2015-01-01")
 end_dt <- Sys.Date()
 date_diff <- as.numeric(difftime(end_dt, start_dt, unit="days"))/(365.25)
@@ -25,49 +25,48 @@ date_diff <- as.numeric(difftime(end_dt, start_dt, unit="days"))/(365.25)
 
 ## Professional Summary
 
-Strategic technology consultant with `r ifelse(date_diff %% 1 == 0, "", "over")` `r round(date_diff)` years of experience building custom solutions and transforming business processes. Specializing in refactoring spreadsheet-based workflows, developing custom applications, and creating data-driven dashboards. Combining hands-on technical development expertise with strategic business advisory to help organizations scale their operations through thoughtful technology implementation across finance, e-commerce, entertainment, and technology sectors.
+Technology strategy consultant with `r ifelse(date_diff %% 1 == 0, "", "over")` `r round(date_diff)` years of experience spanning data science, analytics, and technical leadership. Background spanning from building analytical tools and data-driven solutions to advising senior leadership on technology strategy — including build vs. buy decisions, process design, and engineering team oversight. Working across finance, e-commerce, entertainment, and technology sectors.
 
 ## Technical Skills
 
--   **Leadership**: Team Management, Technical Mentorship
--   **Programming**: R, SQL, Python, VBA
--   **Machine Learning**: Supervised & Unsupervised Learning, Regression Modelling, Statistical Analysis
+-   **Leadership & Advisory**: Technology Strategy, Build vs. Buy Analysis, Scope Management, Team Management, Technical Mentorship
+-   **Programming**: R, SQL, Python
 -   **Business Intelligence**: Tableau, Metabase, Power BI, Interactive Visualization, A/B Testing
+-   **Machine Learning**: Supervised & Unsupervised Learning
 -   **Databases & Cloud**: Google BigQuery, AWS Athena, PostgreSQL
 -   **Data Practices**: Data Governance, Data Quality Standards, ETL Pipelines
 -   **Automation Platforms**: Microsoft Power Platform, Power Automate
--   **Strategic Analysis**: Financial Modelling, Monte Carlo Simulation, Scenario Analysis
+-   **Strategic Analysis**: Financial Modelling, Statistical Analysis, Monte Carlo Simulation, Scenario Analysis
 
 ## Professional Experience
 
 ### Founder & Principal Consultant \| [SheetSolved](https://sheetsolved.com/)
 
-*September 2022 - Present (full-time from January 2025)*
+*September 2022 - Present (part-time alongside employment until January 2025; full-time thereafter)*
 
-Independent consultancy specializing in process transformation and custom solution development. Founded while employed full-time; now my primary focus.
+Technology consultancy advising senior leadership on technology strategy, process design, and solution delivery.
 
 #### Current Engagement: Consulting Technical Lead \| [Precise Digital](https://precise.digital/)
 
--   Lead a team of 3 developers, overseeing architecture decisions and sprint planning.
--   Established coding standards, data governance practices, and quality assurance processes to ensure maintainable, reliable solutions.
--   Mentor team members through regular one-on-ones and technical guidance, fostering professional growth and building team capability.
+-   Advise the CTO on technology strategy, preparing build vs. buy analyses that weigh time-to-value against cost to inform executive decision-making.
+-   Introduced version control and established coding standards, data governance practices, and quality assurance processes where none previously existed.
+-   Draft scopes of work and manage delivery against them, engaging with leadership to prevent scope creep and keep engineering efforts aligned with business priorities.
+-   Lead a team of 3 developers, overseeing architecture decisions, sprint planning, and mentoring team members through regular one-on-ones.
 
-#### Consulting Services
+#### Additional Clients
 
--   Provide full-spectrum services from hands-on development to strategic technology advisory, helping organizations scale operations through thoughtful automation.
--   Additional clients include [BlueAlpha Investments](https://www.bluealphafunds.com/) and [Gananda Connect](https://gananda.net/).
+-   Built a dashboard for [BlueAlpha Investments](https://www.bluealphafunds.com/) that ingests, normalises, and aggregates spreadsheet data into a clean panel database for fund benchmarking and performance analysis.
+-   Reviewed and enhanced valuation models for [Gananda Connect](https://gananda.net/).
 
----
+------------------------------------------------------------------------
 
-### Previous Employment
-
-### Finance Project Analyst \| [CDW](https://www.cdw.com/), Cape Town
+### Finance Project Analyst (Contract) \| [CDW](https://www.cdw.com/), Cape Town
 
 *January 2024 - December 2024*
 
 -   Led cross-functional improvement initiatives within the CFO's Tactical Solutions Team, collaborating with stakeholders across Finance, HR, and BI departments.
 -   Designed and built Power Automate approval workflows that reduced processing time and eliminated manual bottlenecks.
--   Developed custom automated data aggregation solutions that consolidated information from multiple disparate sources, reducing hours spent on unnecessary manual operations.
+-   Developed custom automated data aggregation solutions that consolidated information from multiple disparate sources, reducing hours spent on manual operations.
 
 ### Senior Business Analyst \| [GoDaddy](https://aboutus.godaddy.net/about-us/overview/default.aspx), Cape Town
 
@@ -115,7 +114,7 @@ Independent consultancy specializing in process transformation and custom soluti
 ## Education
 
 -   [**MPhil Financial Technology**](https://commerce.uct.ac.za/school-economics/programmes-postgraduate/mphil-specialising-financial-technology) \| University of Cape Town\
-    *January 2024 - December 2025*
+    *January 2024 - December 2025 (completed, dissertation results pending)*
 
 -   [**BBusSci (Economics)**](https://commerce.uct.ac.za/school-economics/programmes-undergraduate/bachelor-business-science-specialising-economics) \| University of Cape Town\
     *January 2010 - December 2014*
@@ -133,9 +132,6 @@ Independent consultancy specializing in process transformation and custom soluti
 -   AWS Partner Technical Accreditation (June 2021)
 -   AWS Partner Business Accreditation (May 2021)
 -   AWS Partner Cloud Economics Accreditation (May 2021)
--   Investment Management Administration & Client Servicing, UCT/ASISA Academy (March 2015)
--   Equity Analyst Boot Camp, ASISA Academy (February 2015)
--   The President's Award – Gold Standard (October 2009)
 
 ## Publications & Presentations
 
@@ -151,12 +147,20 @@ Independent consultancy specializing in process transformation and custom soluti
 -   "Integrating Excel with R," SatRday Conference (2019): [Watch Presentation](https://www.youtube.com/watch?v=MlBgaMdgp0w)
 
 ## Export CV to PDF
-<!-- Export to PDF Button -->
-<button onclick="window.print()" style="margin-bottom: 20px; padding: 10px 20px; background-color: #0F4761; color: white; border: none; border-radius: 5px; cursor: pointer;">Export to PDF</button>
 
+<!-- Export to PDF Button -->
+
+<button onclick="window.print()" style="margin-bottom: 20px; padding: 10px 20px; background-color: #0F4761; color: white; border: none; border-radius: 5px; cursor: pointer;">
+
+Export to PDF
+
+</button>
+
+```{=html}
 <script>
   // Optional: Customize print behavior if needed
   function printPage() {
     window.print();
   }
 </script>
+```

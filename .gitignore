@@ -7,3 +7,5 @@
 *.html
 
 **/*.quarto_ipynb
+
+.claude
