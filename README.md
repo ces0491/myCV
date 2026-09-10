@@ -23,7 +23,7 @@ myCV/
 ├── _quarto.yml        # Quarto project configuration
 ├── style.css          # Custom styling
 ├── back-to-top.html   # Back-to-top button component
-├── index.html         # Rendered output (generated)
+├── myCV.html          # Rendered output, committed with the source
 └── .github/
     └── workflows/
         └── quarto.yml # GitHub Actions workflow
@@ -49,7 +49,8 @@ The CV is automatically rendered and deployed to GitHub Pages when changes are p
 1. Sets up Quarto and R
 2. Installs required R packages
 3. Renders `myCV.qmd` to HTML
-4. Deploys to GitHub Pages
+4. Copies `myCV.html` to `_site/index.html`
+5. Deploys the `_site` artifact to GitHub Pages
 
 ## License
 
