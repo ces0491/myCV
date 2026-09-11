@@ -33,13 +33,17 @@ jobs:
             any::knitr
             any::rmarkdown
 
+      # every format declared in myCV.qmd: html, typst (pdf) and docx.
+      # typst ships inside quarto, so there is nothing else to install.
       - name: Render Quarto
-        run: quarto render myCV.qmd --to html
+        run: quarto render myCV.qmd
 
       - name: Prepare site output
         run: |
           mkdir -p _site
           cp myCV.html _site/index.html
+          # the page's Other Formats links point at these by relative path
+          cp myCV.pdf myCV.docx _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

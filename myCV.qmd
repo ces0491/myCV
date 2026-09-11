@@ -13,6 +13,27 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     include-in-header: back-to-top.html
+    # the page gets no link of its own; a plain format name in the list stops
+    # quarto adding its default typst and ms word links beside these two
+    format-links:
+      - html
+      - format: typst
+        text: PDF
+        icon: file-pdf
+      - format: docx
+        text: Word
+        icon: file-word
+  typst:
+    papersize: a4
+    fontsize: 10pt
+    margin:
+      x: 2cm
+      y: 2cm
+    # links in the pdf take the site's link colour, so they read as clickable
+    include-in-header:
+      - text: |
+          #show link: set text(fill: rgb("#0F4761"))
+  docx: default
 ---
 
 Cape Town \| +27 76 278 3709 \| [cesairetobias\@gmail.com](mailto:cesairetobias@gmail.com){.email}\
@@ -161,26 +182,3 @@ Portfolio at [sheetsolved.com/built](https://sheetsolved.com/built). Next.js, Ty
 -   Guest Lecturer, "The Economy and its Financial Markets," Economics Honours, University of Cape Town (September 2019)
 -   "Productivity Hacks with your .Rprofile," satRday Joburg (2020): [Watch Presentation](https://www.youtube.com/watch?v=uB75nB3GwP0)
 -   "EXCELsioR!" on integrating Excel with R, satRday Joburg (2019): [Watch Presentation](https://www.youtube.com/watch?v=MlBgaMdgp0w)
-
-::: {.content-visible when-format="html"}
-
-## Export CV to PDF
-
-<!-- Export to PDF Button -->
-
-<button onclick="window.print()" style="margin-bottom: 20px; padding: 10px 20px; background-color: #0F4761; color: white; border: none; border-radius: 5px; cursor: pointer;">
-
-Export to PDF
-
-</button>
-
-```{=html}
-<script>
-  // Optional: Customize print behavior if needed
-  function printPage() {
-    window.print();
-  }
-</script>
-```
-
-:::

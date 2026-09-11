@@ -10,20 +10,22 @@ This repository contains the source files for a web-based CV/resume. The CV is w
 
 ## Tech Stack
 
-- **Quarto** - Document authoring and rendering
+- **Quarto** - Document authoring and rendering, to HTML, PDF (via Typst, bundled with Quarto) and Word
 - **R** - Dynamic content generation (e.g., calculating years of experience)
 - **GitHub Actions** - CI/CD for automatic rendering and deployment
 - **GitHub Pages** - Hosting
 
 ## Project Structure
 
-```
+```text
 myCV/
 ├── myCV.qmd           # Main CV content (Quarto markdown)
 ├── _quarto.yml        # Quarto project configuration
 ├── style.css          # Custom styling
 ├── back-to-top.html   # Back-to-top button component
-├── myCV.html          # Rendered output, committed with the source
+├── myCV.html          # Rendered outputs, committed with the source
+├── myCV.pdf
+├── myCV.docx
 └── .github/
     └── workflows/
         └── quarto.yml # GitHub Actions workflow
@@ -39,7 +41,7 @@ myCV/
 ### Render Locally
 
 ```bash
-quarto render myCV.qmd --to html
+quarto render myCV.qmd
 ```
 
 ## Deployment
@@ -48,8 +50,8 @@ The CV is automatically rendered and deployed to GitHub Pages when changes are p
 
 1. Sets up Quarto and R
 2. Installs required R packages
-3. Renders `myCV.qmd` to HTML
-4. Copies `myCV.html` to `_site/index.html`
+3. Renders `myCV.qmd` to HTML, PDF and Word
+4. Copies `myCV.html` to `_site/index.html`, alongside the PDF and Word files its Other Formats links point at
 5. Deploys the `_site` artifact to GitHub Pages
 
 ## License
